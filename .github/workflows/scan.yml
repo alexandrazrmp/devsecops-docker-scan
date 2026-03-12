@@ -8,7 +8,7 @@ on:
       docker_image:
         description: "The Docker image to scan"
         required: true
-        default: "tensorflow/tensorflow:nightly-jupyter"
+        default: "memcached:alpine"
 
 # env:
 #   REGISTRY: ghcr.io
